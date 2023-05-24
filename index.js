@@ -190,8 +190,8 @@ if (!modlogkanal) return;
                 let embed = new Discord.MessageEmbed()
                     .setColor('#ffffff')
                 .setTitle("METİN KANALI OLUŞTURULDU")
-                .setDescription(`<:a_:821738957997211659>  ${channel.name} **Adlı Metin Kanalı Oluşturuldu!**`)
-                .setFooter(`Lord Creative Bot | Log Sistemi Kanal ID: ${channel.id}`)
+                .setDescription(`  ${channel.name} **Adlı Metin Kanalı Oluşturuldu!**`)
+                .setFooter(`Voixy | Log Sistemi Kanal ID: ${channel.id}`)
                 modlogkanal.send({embed});
             };
             if (channel.type === "voice") {
