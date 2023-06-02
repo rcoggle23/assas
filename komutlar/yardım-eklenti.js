@@ -5,8 +5,8 @@ exports.run = async (client, message, args) => {
 let prefix = await db.fetch(`prefix.${message.guild.id}`) || fynx.prefix 
 let eklenti = new Discord.MessageEmbed()  
 .setColor('#ffffff') 
-.setAuthor(`Voixy   Eklenti Komutları`, client.user.avatarURL())
-.setDescription(`  Voixy  botumuzu eklemek için \`${prefix}davet\` yazabilirsiniz.`)
+.setAuthor(`ReisNetwork   Eklenti Komutları`, client.user.avatarURL())
+.setDescription(`  ReisNetwork  botumuzu eklemek için \`${prefix}davet\` yazabilirsiniz.`)
 .addField(`__Kayıt Sistemi__`,` \`${prefix}kayıtsistemi\` Gelişmiş Kayıt Sistemi`,true)
 .addField(`__Davet Sistemi__`,`  \`${prefix}davetsistemi\` Gelişmiş Davet Sistemi`,true) 
 .addField(`${prefix}botbilgi\` | Botun İstatistiklerini Gösterir \n  \`${prefix}ayarlar\` | Sunucunuzdaki Açık veya Kapalı Komutları Gösterir`)

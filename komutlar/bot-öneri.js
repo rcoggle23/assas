@@ -17,7 +17,7 @@ const onerisiz = new Discord.MessageEmbed()
 
 const onerili = new Discord.MessageEmbed()
 .setColor(AloneDogru)
-.setTitle("Voixy | Başarılı")
+.setTitle("ReisNetwork | Başarılı")
 .setDescription("Öneriniz alınmıştır! Teşekkür ederiz.")
 .setFooter(`©️ Tüm hakları saklıdır | Yeni Nesil Gelişmiş Bot | 2023`);  
   

@@ -38,7 +38,7 @@ const sarki = await client.player.skip(message.guild.id);
 
 const embed = new Discord.MessageEmbed() 
 .setColor(AloneDogru) 
-.setTitle("  Voixy | Atla")
+.setTitle("  ReisNetwork | Atla")
 .setThumbnail(`https://drummofficial.com/wp-content/uploads/2017/08/equalizer3.gif`)
 .setDescription(`   **|** \`${sarki.name}\` **adlı müzik** ${message.author} **tarafından geçildi!**`) 
 .setThumbnail(message.author.avatarURL())
